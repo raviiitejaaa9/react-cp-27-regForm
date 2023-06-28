@@ -1,0 +1,75 @@
+/* Write your CSS code here */
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app-head {
+  font-size: 32px;
+  color: #ea580c;
+}
+
+.input-error {
+  color: #ff0b37;
+}
+
+.form-sec {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 260px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-el {
+  color: red;
+}
+.label-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.label-el {
+  color: gray;
+}
+
+.input-el {
+  width: 220px;
+  height: 32px;
+  outline-color: red;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.submit-btn {
+  background-color: #ea580c;
+  border: none;
+  width: 100px;
+  height: 26px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.submit-another-response-btn {
+  background-color: #ea580c;
+  border: none;
+  width: 200px;
+  height: 26px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
